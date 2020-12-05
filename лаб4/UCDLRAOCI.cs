@@ -526,7 +526,7 @@ namespace лаб4
                 RetrType.List, // структура возвращаемых данных (в данном случае список)
                 ChainApproxMethod.ChainApproxSimple);
 
-            var contoursImage = MainImageExp.CopyBlank();
+            var contoursImage = MainImageExp.Copy();
 
             var approxContour = new VectorOfPoint();
             ShT = 0;
